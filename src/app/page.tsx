@@ -103,10 +103,11 @@ export default async function Home() {
               {/* Using the generated image here */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
-                src="/decentra_hero_banner_1777269760699.png" 
+                src="/web3-orb.png" 
                 alt="DecentraWeb Dashboard" 
                 className="w-full h-full object-cover"
               />
+
               <div className="absolute inset-0 bg-gradient-to-t from-blue-900/40 to-transparent" />
             </div>
             
@@ -226,16 +227,18 @@ export default async function Home() {
                    </div>
                    <h5 className="text-2xl font-black leading-tight">Secure <br />Learning</h5>
                 </div>
-                <div className="aspect-square bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden">
+                <div className="aspect-square bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2832&auto=format&fit=crop" alt="" className="w-full h-full object-cover opacity-50 dark:opacity-30" />
+                  <img src="/vr-learning.png" alt="" className="w-full h-full object-cover" />
                 </div>
+
               </div>
               <div className="space-y-4">
-                <div className="aspect-square bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden">
+                <div className="aspect-square bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2874&auto=format&fit=crop" alt="" className="w-full h-full object-cover opacity-50 dark:opacity-30" />
+                  <img src="/web3-chip.png" alt="" className="w-full h-full object-cover" />
                 </div>
+
                 <div className="aspect-[4/5] bg-indigo-600 rounded-3xl p-8 flex flex-col justify-end text-white relative overflow-hidden group">
                    <div className="absolute top-0 right-0 p-8 opacity-20 rotate-12 scale-150">
                     <Wallet className="w-32 h-32" />
@@ -393,10 +396,12 @@ export default async function Home() {
       {/* CTA Section */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="relative rounded-[3rem] bg-blue-600 p-12 lg:p-24 overflow-hidden text-center text-white">
-            <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-               <div className="absolute top-[-50%] left-[-20%] w-[80%] h-[150%] bg-white rounded-full blur-[120px]" />
+          <div className="relative rounded-[3rem] bg-blue-600 p-12 lg:p-24 overflow-hidden text-center text-white group">
+            <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity">
+              <img src="/blockchain-blocks.png" alt="" className="w-full h-full object-cover" />
             </div>
+            <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none bg-gradient-to-br from-white to-transparent" />
+
             
             <div className="relative z-10 max-w-3xl mx-auto space-y-8">
               <h2 className="text-4xl lg:text-6xl font-black leading-tight">Ready to Build the Future?</h2>
