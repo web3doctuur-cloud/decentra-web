@@ -1,7 +1,8 @@
 import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
-import { GraduationCap, BookOpen, Clock, PlayCircle } from "lucide-react";
+import { GraduationCap, BookOpen, Clock, CirclePlay } from "lucide-react";
+
 
 export default async function CoursesPage() {
   const supabase = await createClient();
@@ -50,8 +51,9 @@ export default async function CoursesPage() {
                     </div>
                   )}
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
-                    <PlayCircle className="w-12 h-12 text-white" />
+                    <CirclePlay className="w-12 h-12 text-white" />
                   </div>
+
                 </div>
                 
                 <div className="p-6 space-y-4">

@@ -2,43 +2,65 @@
 
 > **Empowering the next generation of builders through decentralized education.**
 
-DecentraWeb is a modern Web3 Learning Management System (LMS) designed to bridge the gap between traditional education and the decentralized web. It features a sleek, premium UI and integrates both real-world database management and simulated blockchain interactions.
-
-## 🚀 Key Features
-
-### 🛠 Functional Features (Production-Ready)
-- **Supabase Authentication**: Secure login and registration for both Students and Instructors.
-- **Dynamic Course Catalog**: Real-time course fetching from Supabase database with advanced filtering.
-- **Role-Based Dashboards**: Customized experiences for students (learning tracking) and instructors (course management).
-- **Progress Tracking**: Persistent lesson completion tracking saved to the user profile.
-- **Responsive Navigation**: Premium, mobile-first design with smooth transitions and glassmorphism effects.
-
-### ⛓ Demo Features (Simulated Web3)
-- **Web3 Wallet Connection**: Simulated wallet integration allowing users to "connect" any wallet address for demonstration.
-- **Testnet Payment Flow**: A simulated blockchain transaction experience for course enrollment, including pending states and block confirmation.
-- **On-Chain Credentials**: Mock NFT certification system showcasing how verifiable credentials work in a decentralized ecosystem.
-- **Learn-to-Earn Rewards**: Simulated reward system for course completion.
-
-### 📄 Static Features
-- **Comprehensive Docs**: Educational resources and platform guides (under development).
-- **About Us**: Project vision, mission, and developer journey documentation.
-- **Expert-Led Content**: Curated curriculum layouts for Next.js, Solidity, and Blockchain development.
-
-## 🏗 Tech Stack
-- **Framework:** [Next.js 16 (App Router)](https://nextjs.org/)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS + Vanilla CSS
-- **Database/Auth:** [Supabase](https://supabase.com/)
-- **Icons:** Lucide React
-- **Web3 (Demo):** Wagmi + RainbowKit (Provider setup)
-
-## 📅 Development Roadmap
-- [x] Repository Initialization & Project Architecture
-- [x] Next.js UI Framework & Responsive Layouts
-- [x] Supabase Authentication & Database Schema
-- [x] Course Enrollment & Progress Logic
-- [ ] Solidity Smart Contract Integration (Live Mainnet/Testnet)
-- [ ] Real NFT Minting for Certifications
+DecentraWeb is a premium Web3 Learning Management System (LMS) that bridges the gap between traditional education and the decentralized ecosystem. Built with Next.js 16 and Supabase, it offers a high-end experience for both students and instructors.
 
 ---
+
+## ✨ Features
+
+### 🛠️ Functional Features (Production-Ready)
+These features are fully implemented and connected to the backend/database.
+
+*   **Secure Authentication**: Fully functional login and registration system for both Students and Instructors powered by **Supabase Auth**.
+*   **Dynamic Course Catalog**: Real-time course data fetching from Supabase, featuring beautiful course cards with metadata.
+*   **Role-Based Experience**: 
+    *   **Student Flow**: Browse courses, view lesson content, and track progress.
+    *   **Instructor Flow**: Create and manage courses, view student engagement (Dashboard UI).
+*   **Content Delivery**: Responsive lesson pages with video player integration and descriptive content.
+*   **Premium UI System**: A custom-built design system using **Tailwind CSS** with glassmorphism, smooth transitions, and dark mode support.
+
+### ⛓️ Demo Features (Simulated Web3)
+These features demonstrate the Web3 potential of the platform.
+
+*   **Wallet Integration**: Simulated connection flow using **RainbowKit** and **Wagmi**, showcasing how users would link their identity.
+*   **Blockchain Enrollment**: A simulated "Pay with Crypto" experience during course enrollment, including transaction pending states and success confirmations.
+*   **NFT Credentials**: Visual demonstration of on-chain certificates that users earn upon completing courses.
+*   **Learn-to-Earn Rewards**: A conceptual reward system illustrating how tokens can be earned through educational milestones.
+
+### 📄 Static Features
+Informational pages that provide context and guidance.
+
+*   **Comprehensive Documentation**: Centralized hub for platform guides and developer resources.
+*   **About Page**: Deep dive into the project mission, vision, and the tech stack behind DecentraWeb.
+*   **Curated Curriculum**: High-fidelity landing page showcasing featured tracks like "Solidity Engineering" and "Next.js Mastery".
+
+---
+
+## 🏗️ Tech Stack
+
+*   **Frontend**: Next.js 16 (App Router), TypeScript, Tailwind CSS
+*   **Backend**: Supabase (Database, Auth, Storage)
+*   **Web3 (Demo)**: Wagmi, RainbowKit, Viem
+*   **Icons**: Lucide React
+*   **Styling**: Vanilla CSS + Tailwind
+
+---
+
+## 🚀 Getting Started
+
+1.  **Clone the repo**:
+    ```bash
+    git clone https://github.com/Web3doctuur-cloud/DecentraWeb.git
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install --legacy-peer-deps
+    ```
+3.  **Run locally**:
+    ```bash
+    npm run dev
+    ```
+
+---
+
 *Created with 🧡 by Hadizah Yusuf ([Web3doctuur-cloud](https://github.com/Web3doctuur-cloud))*
