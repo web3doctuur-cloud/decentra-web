@@ -103,10 +103,11 @@ export default async function Home() {
               {/* Using the generated image here */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
-                src="/web3-orb.png" 
+                src="/assets/Images/web3-orb.png" 
                 alt="DecentraWeb Dashboard" 
                 className="w-full h-full object-cover"
               />
+
 
               <div className="absolute inset-0 bg-gradient-to-t from-blue-900/40 to-transparent" />
             </div>
@@ -229,15 +230,17 @@ export default async function Home() {
                 </div>
                 <div className="aspect-square bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/vr-learning.png" alt="" className="w-full h-full object-cover" />
+                  <img src="/assets/Images/vr-learning.png" alt="" className="w-full h-full object-cover" />
                 </div>
+
 
               </div>
               <div className="space-y-4">
                 <div className="aspect-square bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/web3-chip.png" alt="" className="w-full h-full object-cover" />
+                  <img src="/assets/Images/web3-chip.png" alt="" className="w-full h-full object-cover" />
                 </div>
+
 
                 <div className="aspect-[4/5] bg-indigo-600 rounded-3xl p-8 flex flex-col justify-end text-white relative overflow-hidden group">
                    <div className="absolute top-0 right-0 p-8 opacity-20 rotate-12 scale-150">
@@ -398,8 +401,9 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="relative rounded-[3rem] bg-blue-600 p-12 lg:p-24 overflow-hidden text-center text-white group">
             <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity">
-              <img src="/blockchain-blocks.png" alt="" className="w-full h-full object-cover" />
+              <img src="/assets/Images/blockchain-blocks.png" alt="" className="w-full h-full object-cover" />
             </div>
+
             <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none bg-gradient-to-br from-white to-transparent" />
 
             
